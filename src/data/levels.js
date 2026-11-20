@@ -28,7 +28,7 @@ export const LEVELS = [
   },
   {
     id: 2, name: 'The Underground', tagline: 'Dark caves where iron glints in the stone.',
-    target: 300, parTime: 330_000, requiresTool: null,
+    target: 250, parTime: 330_000, requiresTool: null,
     terrain: {
       seed: 202, shape: 'cave', baseHeight: 22, amplitude: 4, scale: 40, ceilGap: 16, ceilVar: 6,
       surface: M.DIRT, subsurface: M.STONE, subsurfaceDepth: 2,
@@ -39,7 +39,7 @@ export const LEVELS = [
   },
   {
     id: 3, name: 'The Quarry', tagline: 'Terraced cliffs of stone and iron.',
-    target: 1500, parTime: 300_000, requiresTool: null,
+    target: 1000, parTime: 300_000, requiresTool: null,
     terrain: {
       seed: 303, shape: 'quarry', baseHeight: 28, amplitude: 10, scale: 55, step: 4,
       surface: M.STONE, subsurface: M.STONE, subsurfaceDepth: 2,
@@ -50,7 +50,7 @@ export const LEVELS = [
   },
   {
     id: 4, name: 'The Golden Fields', tagline: 'Rolling fields glittering with gold veins.',
-    target: 12000, parTime: 240_000, requiresTool: 'iron',
+    target: 10000, parTime: 240_000, requiresTool: 'iron',
     terrain: {
       seed: 404, shape: 'hills', baseHeight: 30, amplitude: 6, scale: 70,
       surface: M.GOLD, subsurface: M.IRON, subsurfaceDepth: 2,
@@ -61,7 +61,7 @@ export const LEVELS = [
   },
   {
     id: 5, name: 'The Crystal World', tagline: 'Glowing ridges of gold, diamond and crystal.',
-    target: 40000, parTime: 420_000, requiresTool: 'diamond',
+    target: 25000, parTime: 420_000, requiresTool: 'diamond',
     terrain: {
       seed: 505, shape: 'ridges', baseHeight: 22, amplitude: 20, scale: 36, patch: 4,
       surface: M.DIAMOND, subsurface: M.GOLD, subsurfaceDepth: 2,
@@ -72,7 +72,7 @@ export const LEVELS = [
   },
   {
     id: 6, name: 'The Deep Core', tagline: 'Scorching caverns near the planet’s heart.',
-    target: 500_000, parTime: 300_000, requiresTool: 'drill',
+    target: 100_000, parTime: 300_000, requiresTool: 'drill',
     terrain: {
       seed: 606, shape: 'cave', baseHeight: 20, amplitude: 5, scale: 38, ceilGap: 18, ceilVar: 8,
       surface: M.DIAMOND, subsurface: M.DIAMOND, subsurfaceDepth: 2,
@@ -83,7 +83,7 @@ export const LEVELS = [
   },
   {
     id: 7, name: 'The Void', tagline: 'Floating islands in endless dark.',
-    target: 1_000_000, parTime: 390_000, requiresTool: 'plasma', voidFloor: true,
+    target: 250_000, parTime: 390_000, requiresTool: 'plasma', voidFloor: true,
     terrain: {
       seed: 707, shape: 'islands', baseHeight: 30, scale: 44, threshold: 0.5, spawnRadius: 34,
       surface: M.CRYSTAL, subsurface: M.CRYSTAL, subsurfaceDepth: 2,
@@ -94,7 +94,7 @@ export const LEVELS = [
   },
   {
     id: 8, name: 'The Infinite Mine', tagline: 'Endless shafts of obsidian and void.',
-    target: 6_000_000, parTime: 330_000, requiresTool: null,
+    target: 2_500_000, parTime: 330_000, requiresTool: null,
     terrain: {
       seed: 808, shape: 'shafts', baseHeight: 22, cell: 8,
       surface: M.OBSIDIAN, subsurface: M.OBSIDIAN, subsurfaceDepth: 2,
@@ -105,7 +105,7 @@ export const LEVELS = [
   },
   {
     id: 9, name: 'The Final Frontier', tagline: 'A nebula of void and the first Ultimate Material.',
-    target: 18_000_000, parTime: 450_000, requiresTool: 'quantum', voidFloor: true,
+    target: 6_000_000, parTime: 450_000, requiresTool: 'quantum', voidFloor: true,
     terrain: {
       seed: 909, shape: 'islands', baseHeight: 34, scale: 52, threshold: 0.48, spawnRadius: 40,
       surface: M.VOID, subsurface: M.VOID, subsurfaceDepth: 2,
@@ -116,7 +116,7 @@ export const LEVELS = [
   },
   {
     id: 10, name: 'The Ultimate Grind', tagline: 'One monolith. Destroy it all. Then destroy the Core.',
-    target: 30_000_000, parTime: 450_000, requiresTool: 'void', finale: true,
+    target: 10_000_000, parTime: 450_000, requiresTool: 'void', finale: true,
     terrain: {
       seed: 1010, shape: 'monolith', baseHeight: 22, towerHeight: 62, towerX: 8, towerZ: -34, towerHalf: 7,
       surface: M.VOID, subsurface: M.VOID, subsurfaceDepth: 3,
