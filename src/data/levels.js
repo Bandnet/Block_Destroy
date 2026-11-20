@@ -72,7 +72,7 @@ export const LEVELS = [
   },
   {
     id: 6, name: 'The Deep Core', tagline: 'Scorching caverns near the planet’s heart.',
-    target: 100_000, parTime: 300_000, requiresTool: 'drill',
+    target: 150_000, parTime: 300_000, requiresTool: 'drill',
     terrain: {
       seed: 606, shape: 'cave', baseHeight: 20, amplitude: 5, scale: 38, ceilGap: 18, ceilVar: 8,
       surface: M.DIAMOND, subsurface: M.DIAMOND, subsurfaceDepth: 2,
@@ -83,7 +83,7 @@ export const LEVELS = [
   },
   {
     id: 7, name: 'The Void', tagline: 'Floating islands in endless dark.',
-    target: 250_000, parTime: 390_000, requiresTool: 'plasma', voidFloor: true,
+    target: 500_000, parTime: 390_000, requiresTool: 'plasma', voidFloor: true,
     terrain: {
       seed: 707, shape: 'islands', baseHeight: 30, scale: 44, threshold: 0.5, spawnRadius: 34,
       surface: M.CRYSTAL, subsurface: M.CRYSTAL, subsurfaceDepth: 2,
@@ -94,7 +94,7 @@ export const LEVELS = [
   },
   {
     id: 8, name: 'The Infinite Mine', tagline: 'Endless shafts of obsidian and void.',
-    target: 2_500_000, parTime: 330_000, requiresTool: null,
+    target: 4_000_000, parTime: 330_000, requiresTool: null,
     terrain: {
       seed: 808, shape: 'shafts', baseHeight: 22, cell: 8,
       surface: M.OBSIDIAN, subsurface: M.OBSIDIAN, subsurfaceDepth: 2,
